@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #2e2e2e;
+}
+
+.Hero {
+  background-image: linear-gradient(
+    to bottom,
+    white,
+    oklch(93.2% 0.032 255.585),
+    white
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text {
+  width: 700px;
+  text-align: center;
+  font-size: 28px;
+  margin-top: 30px;
+  font-weight: 200;
+  color: #2e2e2e;
+}
+
+.hero-main {
+  line-height: 55px;
+}
+
+.hero-sub {
+  max-width: 700px;
+  font-size: 25px;
+  margin-top: 18px;
+}
+
+.hero-foot{
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 40px;
+  color: oklch(70.8% 0 0);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px 0px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 750;
+}
+
+.btn {
+  display: flex;
+  gap: 24px;
+}
+
+.same-btn {
+  background: none;
+  border: none;
+  font-weight: 600;
+  color: oklch(55.6% 0 0);
+}
+
+.same-btn:hover {
+  color: black;
+}
+
+.get-started {
+  background: oklch(62.3% 0.214 259.815);
+  color: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: 700;
+  border: none;
+  text-shadow: 0px 1px 1px black;
+  box-shadow: 0px 6px 10px rgb(170, 169, 169);
+  cursor: pointer;
+}
+
+.get-started:hover {
+  background-color: oklch(54.6% 0.245 262.881);
+  transition: all 0.2s ease-in;
+}
+
+.cap-table-basic {
+  display: flex;
+  justify-content: center;
+}
+
+#mid {
+  font-size: 13px;
+  border: 0.5px solid rgb(204, 204, 204);
+  border-radius: 14px;
+  padding: 6px 14px;
+  font-weight: 550;
+  color: #5c5c5c;
+  margin-top: 90px;
+}
+
+#mid:hover {
+  background-color: #dadada;
+  cursor: pointer;
+}
+
+.pricing {
+  background-color: transparent;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 550;
+  color: #2e2e2e;
+}
+
+.pricing:hover {
+  background-color: oklch(77.944% 0.00009 271.152);
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.hero-btns {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.hero-img{
+ display: flex;
+ justify-content: center;
+  /* height: 600px; */
+  margin-top: -300px;
+  position: relative;
+}
+
+.hero-img img {
+  max-width: 1200px;
+  width: 67%;
+  height: auto;
+  box-shadow: 0px 20px 30px rgb(35, 35, 35);
+}
+.hero-img::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  background: linear-gradient(to bottom, transparent, white);
+  pointer-events: none;
+}
+
+
+
+
+
